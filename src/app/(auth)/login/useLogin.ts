@@ -36,7 +36,7 @@ export const useLogin = (): IUserAuth => {
                             notifications: loginUser.notifications
                         }
                     });
-                    router.push('/');
+                    router.push('/status');
                 }
             } else {
                 setValidationErrors({
